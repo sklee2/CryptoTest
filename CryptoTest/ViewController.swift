@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let encryptMessage_ = encryptMessage(message: "Hello World!", encryptionKey: "mykeymykeymykey1", iv: "myivmyivmyivmyiv")
+        let encryptMessage_ = encryptMessage(message: "Hello2 World!", encryptionKey: "mykeymykeymykey1", iv: "myivmyivmyivmyiv")
         // Output of encryptMessage is: 649849a5e700d540f72c4429498bf9f4
         
         let decryptedMessage_ = decryptMessage(encryptedMessage: encryptMessage_!, encryptionKey: "mykeymykeymykey1", iv: "myivmyivmyivmyiv")
